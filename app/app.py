@@ -6,7 +6,7 @@ from PySide6.QtWidgets import (
 from PySide6.QtCore import QThread, Signal
 from PySide6.QtWidgets import QDialog, QLabel, QDateEdit, QDialogButtonBox, QFileDialog
 from PySide6.QtCore import QDate
-import parser
+import scraper
 
 def format_range(date_from, date_to):
     same_month = date_from.month() == date_to.month()
